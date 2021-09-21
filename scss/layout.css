@@ -1,0 +1,105 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  color: #1b1b1b;
+}
+
+.form-box {
+  overflow: hidden;
+  padding: 20px;
+  background: #f7f7f9;
+  border-radius: 4px;
+}
+
+.form-box h3 {
+  font-size: 36px;
+  list-style: 48px;
+  font-weight: 500;
+}
+
+.form-box p {
+  color: #636c72;
+}
+
+.form-box .btn-green {
+  font-size: 18px;
+  line-height: 27px;
+  border-radius: 2px;
+}
+
+.form-box .form-group:last-child {
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-control-label {
+  font-weight: 500;
+}
+
+.form-control {
+  line-height: 1.8rem;
+}
+
+.navbar {
+  background: #78379d;
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 0.5rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 300;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 4px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  background: #fff;
+  color: #78379d;
+}
+
+.container h1,
+.container p {
+  color: aliceblue;
+  font-size: medium;
+  font-style: italic;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-green {
+  background: #379d60;
+  color: #fff;
+}
+
+.btn-green:hover {
+  background: #268d4f;
+  color: #fff;
+}
+
+.btn-purple {
+  border: 1px solid #78379d;
+  background: transparent;
+  color: #78379d;
+}
+
+.btn-purple:hover {
+  background: #78379d;
+  color: #fff;
+}
+/*# sourceMappingURL=layout.css.map */

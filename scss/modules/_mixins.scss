@@ -1,0 +1,17 @@
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin no-left-radius() {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@mixin set-text-style() {
+    color: aliceblue;
+    font-size: medium;
+    font-style: italic;
+}
